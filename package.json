@@ -1,0 +1,40 @@
+{
+  "name": "@morajlab/mytime",
+  "version": "0.0.1",
+  "description": "MyTime - Time management app",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Morteza Jamali",
+    "email": "mortezajamali4241@gmail.com",
+    "url": "https://moraj.ir"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "framework7": "^6.3.4",
+    "framework7-icons": "^5.0.3",
+    "framework7-react": "^6.3.4",
+    "glamor": "^2.20.40",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-rnd": "^10.3.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@storybook/addon-actions": "^6.3.8",
+    "@storybook/addon-essentials": "^6.3.8",
+    "@storybook/addon-links": "^6.3.8",
+    "@storybook/react": "^6.3.8",
+    "@types/node": "^16.9.4",
+    "@types/react": "^17.0.22",
+    "@types/react-dom": "^17.0.9",
+    "babel-loader": "^8.2.2",
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^4.4.3"
+  }
+}
