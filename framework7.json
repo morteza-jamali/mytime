@@ -1,8 +1,5 @@
 {
-  "cwd": "/home/vagrant/vvvv",
-  "type": [
-    "pwa"
-  ],
+  "type": ["pwa"],
   "name": "MyTime",
   "framework": "react",
   "template": "tabs",

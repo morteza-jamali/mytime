@@ -34,9 +34,8 @@ node_modules/
 .DS_Store
 Thumbs.db
 
-
-
-
+# React-Cosmos
+**/cosmos.userdeps.js
 
 # Production build
 www/

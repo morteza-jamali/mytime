@@ -1,0 +1,6 @@
+{
+  "$schema": "./node_modules/react-cosmos/config.schema.json",
+  "userDepsFilePath": "./src/cosmos/cosmos.userdeps.js",
+  "experimentalRendererUrl": "http://localhost:3000/cosmos/index.html",
+  "watchDirs": ["./src"]
+}
