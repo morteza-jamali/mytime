@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Toolbar, Link, Tabs, Tab, Block, Page } from "framework7-react";
-import { F7App, TimeView, Auth } from "../components";
+import { F7App, TimeView, Auth, Settings } from "../components";
 import type { IMTComponentFunction } from "../types";
 
 export const App: IMTComponentFunction<{}> = () => {
@@ -20,16 +20,11 @@ export const App: IMTComponentFunction<{}> = () => {
           </Toolbar>
           <Tabs swipeable>
             <Tab id="mt-time-view" className="page-content" tabActive>
-              <Block>
-                <TimeView />
-              </Block>
+              <TimeView />
             </Tab>
             <Tab id="tab-2" className="page-content">
               <Block>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptates maxime saepe ratione aperiam voluptatum quod placeat
-                asperiores soluta quae? Facere natus dolorem, facilis fugit
-                aliquid laudantium provident aperiam totam itaque.
+                <Settings />
               </Block>
             </Tab>
             <Tab id="mt-profile" className="page-content">

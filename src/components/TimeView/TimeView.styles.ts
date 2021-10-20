@@ -5,6 +5,12 @@ const coverSize = {
   height: "100%",
 };
 
+const layer = {
+  position: "absolute",
+  inset: 0,
+  ...coverSize,
+};
+
 export const Styles = createStyle({
   root: {
     display: "flex",
@@ -19,15 +25,12 @@ export const Styles = createStyle({
     textAlign: "center",
     fontWeight: "bold",
     fontSize: "50px",
+    ...layer,
   },
   atropos: {
     flexGrow: 1,
   },
-  layer: {
-    position: "absolute",
-    inset: 0,
-    ...coverSize,
-  },
+  layer,
 });
 
 export default Styles;

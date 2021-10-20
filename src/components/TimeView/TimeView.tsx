@@ -42,7 +42,7 @@ export const TimeView: TimeViewComponent = ({ ...rest }) => {
           }}
           className={layer}
         ></div>
-        <div className={`${time} ${layer}`} {...rest}>
+        <div className={time} {...rest}>
           {["03", "42", "23", "PM"].map((value, key) => (
             <div key={key}>{value}</div>
           ))}
