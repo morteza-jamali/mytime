@@ -1,3 +1,3 @@
-import { createUseStyles } from "react-jss";
+import { createStyles as _createStyles } from "@morajlab/react.utils.style";
 
-export const createStyle = createUseStyles;
+export const createStyles = _createStyles;

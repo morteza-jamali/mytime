@@ -1,6 +1,6 @@
-import { createStyle } from "../../utils";
+import { createStyles } from "../../utils";
 
-export const Styles = createStyle({
+export const Styles = createStyles({
   root: {},
 });
 

@@ -1,4 +1,4 @@
-import { createStyle } from "../../utils";
+import { createStyles } from "../../utils";
 
 const coverSize = {
   width: "100%",
@@ -11,7 +11,7 @@ const layer = {
   ...coverSize,
 };
 
-export const Styles = createStyle({
+export const Styles = createStyles({
   root: {
     display: "flex",
     justifyContent: "center",

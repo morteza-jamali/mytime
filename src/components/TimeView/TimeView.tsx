@@ -1,6 +1,6 @@
 import React from "react";
 import Atropos from "atropos/react";
-import { Bare } from "@morajlab/ui-dev.react.component.basic.bare";
+import { Bare } from "..";
 import { Styles } from "./TimeView.styles";
 import type { TimeViewComponent } from "./TimeView.types";
 
