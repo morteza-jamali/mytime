@@ -40,6 +40,7 @@
   ],
   "dependencies": {
     "@morajlab/react.components.bare": "^0.0.111",
+    "@morajlab/react.styles.common": "^0.0.1",
     "@morajlab/react.utils.style": "^0.0.111",
     "atropos": "^0.10.1",
     "dom7": "^3.0.0",

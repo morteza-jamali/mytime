@@ -1,14 +1,8 @@
 import { createStyles } from "../../utils";
 
-const coverSize = {
-  width: "100%",
-  height: "100%",
-};
-
 const layer = {
   position: "absolute",
   inset: 0,
-  ...coverSize,
 };
 
 export const Styles = createStyles({
@@ -16,7 +10,6 @@ export const Styles = createStyles({
     display: "flex",
     justifyContent: "center",
     alignItems: "stretch",
-    ...coverSize,
   },
   time: {
     display: "flex",

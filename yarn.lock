@@ -1080,6 +1080,14 @@
     "@morajlab/react.utils.style" "0.0.111"
     core-js "^3.0.0"
 
+"@morajlab/react.styles.common@^0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@morajlab/react.styles.common/-/@morajlab-react.styles.common-0.0.1.tgz#47770cf7ccbe6c986f45b3fd504d76b032b9a813"
+  integrity sha1-R3cM98y+bJhvRbP9UE12sDK5qBM=
+  dependencies:
+    "@morajlab/react.utils.style" "0.0.111"
+    core-js "^3.0.0"
+
 "@morajlab/react.types.common@0.0.11", "@morajlab/react.types.common@^0.0.11":
   version "0.0.11"
   resolved "https://node.bit.dev/@morajlab/react.types.common/-/@morajlab-react.types.common-0.0.11.tgz#eef966d7870af7526f301838cf66457faac446be"

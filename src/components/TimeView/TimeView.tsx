@@ -2,15 +2,17 @@ import React from "react";
 import Atropos from "atropos/react";
 import { Bare } from "..";
 import { Styles } from "./TimeView.styles";
+import { common } from "../../styles";
 import type { TimeViewComponent } from "./TimeView.types";
 
 import "atropos/css";
 
 export const TimeView: TimeViewComponent = ({ ...rest }) => {
   const { root, time, atropos, layer } = Styles();
+  const { coverSize } = common();
 
   return (
-    <Bare className={root}>
+    <Bare className={`${root} ${coverSize}`}>
       <Atropos className={atropos}>
         <div
           data-atropos-offset="-5"
@@ -20,7 +22,7 @@ export const TimeView: TimeViewComponent = ({ ...rest }) => {
             height: "100%",
             opacity: "0.3",
           }}
-          className={layer}
+          className={`${layer} ${coverSize}`}
         ></div>
         <div
           data-atropos-offset="0"
@@ -30,7 +32,7 @@ export const TimeView: TimeViewComponent = ({ ...rest }) => {
             height: "100%",
             opacity: "0.3",
           }}
-          className={layer}
+          className={`${layer} ${coverSize}`}
         ></div>
         <div
           data-atropos-offset="5"
@@ -40,9 +42,9 @@ export const TimeView: TimeViewComponent = ({ ...rest }) => {
             height: "100%",
             opacity: "0.3",
           }}
-          className={layer}
+          className={`${layer} ${coverSize}`}
         ></div>
-        <div className={time} {...rest}>
+        <div className={`${time} ${coverSize}`} {...rest}>
           {["03", "42", "23", "PM"].map((value, key) => (
             <div key={key}>{value}</div>
           ))}
